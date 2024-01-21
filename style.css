@@ -1,0 +1,148 @@
+/*CSS dosyası*/
+
+/*Boşlukları sıfırlama*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#sayfa{
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    min-height: 600px;
+    margin: auto;
+}
+#banner{
+    border-style: solid;
+    border-width: 1px;
+    width: 398px;
+    height: 100px;
+    background-color:white;
+    margin: auto;
+
+}
+#logo{
+    border-style: none;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    background-color:white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+
+}
+#sosyal{
+    width: 136px;
+    height: 40px;
+    border-style:none;
+    border-width: 1px;
+    background-color: white;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#anamenu{
+    border-style: solid;
+    border-width: 1px;
+    width: 398px;
+    height: 50px;
+    background-color:rebeccapurple;
+    margin: auto;
+
+}
+#anamenu ul{ /*id si anamenu olan etiketin içindeki ul etiketi için css kodu*/
+    list-style-type: none;
+}
+#anamenu ul li{
+    border-style: solid;
+    width: 80px;
+    border-color:deepskyblue;
+    background-color: white;
+    border-radius: 5px;
+    float: left; /*soldan sağa yatırma*/
+    padding: 3px;/* metinlerle kutu arasındaki boşluk*/
+    margin-left: 6px;
+    position: relative;
+    top: 10px; /*üstten 5 piksel uzaklaştırma*/
+    text-align: center;/*metinleri kutu içine ortaladık*/
+
+}
+#anamenu ul a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none; /*linklerdeki alt çizgileri kaldırdık*/
+            font-size: 15px;
+
+}
+#anamenu ul a:visited{/*ziyaret edilmiş link için*/
+    color: brown;
+
+}
+#anamenu ul a:hover{/*fare üzerine geldiğinde */
+    color: gray;
+    text-decoration: underline;/*alt çizgi */
+}
+#anamenu ul a:active{/*tıklandığında*/
+    color: red;
+    
+}
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color:cadetblue;
+    float: left;
+
+}
+#yanmenu{
+    width: 96px;
+    min-height: 405px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color:royalblue;
+    float: left;
+}
+.resim2{
+    float: left;
+    width: 100px;
+
+}
+.metin{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.metin2{
+    font-size: 12px;
+}
+aside h2{
+    font-size: 15px;
+}
+#altmenu{
+    background-color:darkslateblue;
+    border-style: dotted;
+    width: 395px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    
+}
+#altmenu a:hover{
+    color: gray;
+    text-decoration: underline;
+}
